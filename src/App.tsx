@@ -33,8 +33,26 @@ const App = () => {
 
       <footer>
         <p className="font-medium text-center font-montserrat text-[#BDBDBD]">
-          created by <span className="font-bold">farhaan-mukarram</span> -
-          devChallenges.io
+          created by{" "}
+          <span className="font-bold">
+            <a
+              href="https://github.com/farhaan-mukarram/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              farhaan-mukarram
+            </a>
+          </span>
+          {" - "}
+          <a
+            href="https://devchallenges.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            devChallenges.io
+          </a>
         </p>
       </footer>
     </div>
